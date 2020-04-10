@@ -1,0 +1,10 @@
+<h1>Welcome to the {{gameRoom.name}} Game!!</h1>
+
+<input type="hidden" id="game_name" name="game_name" value="{{gameRoom.name}}">
+
+{{#if gameRoom.gameState.preGame}}
+{{> sign-in}}
+{{/if}}
+
+{{> players}}
+{{> game-area}}

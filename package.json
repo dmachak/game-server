@@ -1,0 +1,16 @@
+{
+  "name": "ws-sample",
+  "version": "1.0.0",
+  "description": "Example of communication between browsers via a server, using the ws node module.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.2",
+    "ws": "^7.2.3"
+  }
+}
